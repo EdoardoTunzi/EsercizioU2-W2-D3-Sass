@@ -7,6 +7,102 @@ body {
   color: #f4f4f4;
 }
 
+.p-block-sm {
+  padding-block: 0.5rem;
+}
+
+.p-inline-sm {
+  padding-inline: 0.5rem;
+}
+
+.m-block-sm {
+  margin-block: 0.5rem;
+}
+
+.m-inline-sm {
+  margin-inline: 0.5rem;
+}
+
+.p-block-normal {
+  padding-block: 1rem;
+}
+
+.p-inline-normal {
+  padding-inline: 1rem;
+}
+
+.m-block-normal {
+  margin-block: 1rem;
+}
+
+.m-inline-normal {
+  margin-inline: 1rem;
+}
+
+.p-block-md {
+  padding-block: 1.5rem;
+}
+
+.p-inline-md {
+  padding-inline: 1.5rem;
+}
+
+.m-block-md {
+  margin-block: 1.5rem;
+}
+
+.m-inline-md {
+  margin-inline: 1.5rem;
+}
+
+.p-block-lg {
+  padding-block: 2rem;
+}
+
+.p-inline-lg {
+  padding-inline: 2rem;
+}
+
+.m-block-lg {
+  margin-block: 2rem;
+}
+
+.m-inline-lg {
+  margin-inline: 2rem;
+}
+
+.p-block-xl {
+  padding-block: 2.5rem;
+}
+
+.p-inline-xl {
+  padding-inline: 2.5rem;
+}
+
+.m-block-xl {
+  margin-block: 2.5rem;
+}
+
+.m-inline-xl {
+  margin-inline: 2.5rem;
+}
+
+.p-block-xxl {
+  padding-block: 3rem;
+}
+
+.p-inline-xxl {
+  padding-inline: 3rem;
+}
+
+.m-block-xxl {
+  margin-block: 3rem;
+}
+
+.m-inline-xxl {
+  margin-inline: 3rem;
+}
+
 .btn-blue {
   background-color: #0e6cff;
   color: #f4f4f4;

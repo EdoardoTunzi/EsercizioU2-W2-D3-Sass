@@ -1,0 +1,26 @@
+$spacing-map: (
+  "sm": 0.5rem,
+  "normal": 1rem,
+  "md": 1.5rem,
+  "lg": 2rem,
+  "xl": 2.5rem,
+  "xxl": 3rem,
+);
+
+@each $size, $value in $spacing-map {
+  .p-block-#{$size} {
+    padding-block: $value;
+  }
+
+  .p-inline-#{$size} {
+    padding-inline: $value;
+  }
+
+  .m-block-#{$size} {
+    margin-block: $value;
+  }
+
+  .m-inline-#{$size} {
+    margin-inline: $value;
+  }
+}
