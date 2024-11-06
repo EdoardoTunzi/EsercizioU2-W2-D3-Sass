@@ -3,9 +3,15 @@ $colorOrange: #ff8700;
 $colorGreen: #4caf50;
 $colorPurple: #640fc5;
 
-/*#hero {
-    button {
+$colorMap: (
+  "blue": $colorBlue,
+  "orange": $colorOrange,
+  "green": $colorGreen,
+);
 
-    }
+@each $name, $color in $colorMap {
+  .btn-#{$name} {
+    background-color: $color;
+    color: $text-color;
+  }
 }
-    */

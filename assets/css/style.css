@@ -1,14 +1,27 @@
 body {
+  margin: 0;
+}
+
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #f4f4f4;
 }
 
-/*#hero {
-    button {
-
-    }
+.btn-blue {
+  background-color: #0e6cff;
+  color: #f4f4f4;
 }
-    */
+
+.btn-orange {
+  background-color: #ff8700;
+  color: #f4f4f4;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: #f4f4f4;
+}
+
 header nav {
   display: flex;
   align-items: center;
