@@ -21,7 +21,6 @@ header {
           text-decoration: none;
           font-family: inherit;
           font-size: $size1;
-          margin-inline: 1rem;
         }
       }
     }
@@ -38,16 +37,15 @@ header {
   img {
     width: 300px;
     border-radius: 15%;
-    margin-block: 1rem;
   }
 }
 
 #grid {
   display: flex;
   gap: 10px;
+  justify-content: center;
   img {
-    width: 20%;
+    width: 200px;
     border-radius: 15%;
-    margin: 1rem;
   }
 }

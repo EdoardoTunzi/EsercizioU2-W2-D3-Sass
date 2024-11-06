@@ -13,5 +13,7 @@ $colorMap: (
   .btn-#{$name} {
     background-color: $color;
     color: $text-color;
+    font-family: inherit;
+    font-size: $size1;
   }
 }
