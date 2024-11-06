@@ -1,11 +1,16 @@
-body {
+* {
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #f4f4f4;
-  font-weight: 600;
+}
+
+.p-sm {
+  padding: 0.5rem;
 }
 
 .p-block-sm {
@@ -16,12 +21,20 @@ body {
   padding-inline: 0.5rem;
 }
 
+.m-sm {
+  margin: 0.5rem;
+}
+
 .m-block-sm {
   margin-block: 0.5rem;
 }
 
 .m-inline-sm {
   margin-inline: 0.5rem;
+}
+
+.p-normal {
+  padding: 1rem;
 }
 
 .p-block-normal {
@@ -32,12 +45,20 @@ body {
   padding-inline: 1rem;
 }
 
+.m-normal {
+  margin: 1rem;
+}
+
 .m-block-normal {
   margin-block: 1rem;
 }
 
 .m-inline-normal {
   margin-inline: 1rem;
+}
+
+.p-md {
+  padding: 1.5rem;
 }
 
 .p-block-md {
@@ -48,12 +69,20 @@ body {
   padding-inline: 1.5rem;
 }
 
+.m-md {
+  margin: 1.5rem;
+}
+
 .m-block-md {
   margin-block: 1.5rem;
 }
 
 .m-inline-md {
   margin-inline: 1.5rem;
+}
+
+.p-lg {
+  padding: 2rem;
 }
 
 .p-block-lg {
@@ -64,12 +93,20 @@ body {
   padding-inline: 2rem;
 }
 
+.m-lg {
+  margin: 2rem;
+}
+
 .m-block-lg {
   margin-block: 2rem;
 }
 
 .m-inline-lg {
   margin-inline: 2rem;
+}
+
+.p-xl {
+  padding: 2.5rem;
 }
 
 .p-block-xl {
@@ -80,6 +117,10 @@ body {
   padding-inline: 2.5rem;
 }
 
+.m-xl {
+  margin: 2.5rem;
+}
+
 .m-block-xl {
   margin-block: 2.5rem;
 }
@@ -88,12 +129,20 @@ body {
   margin-inline: 2.5rem;
 }
 
+.p-xxl {
+  padding: 3rem;
+}
+
 .p-block-xxl {
   padding-block: 3rem;
 }
 
 .p-inline-xxl {
   padding-inline: 3rem;
+}
+
+.m-xxl {
+  margin: 3rem;
 }
 
 .m-block-xxl {
@@ -109,6 +158,9 @@ body {
   color: #f4f4f4;
   font-family: inherit;
   font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
 }
 
 .btn-orange {
@@ -116,6 +168,9 @@ body {
   color: #f4f4f4;
   font-family: inherit;
   font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
 }
 
 .btn-green {
@@ -123,6 +178,9 @@ body {
   color: #f4f4f4;
   font-family: inherit;
   font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
 }
 
 header nav {

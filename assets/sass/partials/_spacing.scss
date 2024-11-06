@@ -8,12 +8,20 @@ $spacing-map: (
 );
 
 @each $size, $value in $spacing-map {
+  .p-#{$size} {
+    padding: $value;
+  }
+
   .p-block-#{$size} {
     padding-block: $value;
   }
 
   .p-inline-#{$size} {
     padding-inline: $value;
+  }
+
+  .m-#{$size} {
+    margin: $value;
   }
 
   .m-block-#{$size} {

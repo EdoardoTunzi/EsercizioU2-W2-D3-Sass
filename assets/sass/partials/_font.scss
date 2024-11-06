@@ -5,7 +5,6 @@ $size3: 3rem;
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: $text-color;
-  font-weight: 600;
 }
 @mixin titleBig() {
   font-size: $size3;
