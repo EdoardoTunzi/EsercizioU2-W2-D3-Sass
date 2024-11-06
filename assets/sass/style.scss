@@ -36,7 +36,8 @@ header {
   }
   img {
     width: 300px;
-    border-radius: 15%;
+    border-radius: 20px;
+    @include floating(none, 25px, 0px 5px 5px 0px rgba(182, 134, 204, 0.784));
   }
 }
 
@@ -46,6 +47,7 @@ header {
   justify-content: center;
   img {
     width: 200px;
-    border-radius: 15%;
+    border-radius: 20px;
+    @include floating();
   }
 }
