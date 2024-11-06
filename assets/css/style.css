@@ -153,40 +153,37 @@ body {
   margin-inline: 3rem;
 }
 
-.btn-blue {
-  background-color: #0e6cff;
+.btn {
   color: #f4f4f4;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border-radius: 10px;
   border: none;
-  padding: 5px;
+  padding-inline: 15px;
+  padding-block: 5px;
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.btn-blue {
+  background-color: #0e6cff;
 }
 
 .btn-orange {
   background-color: #ff8700;
-  color: #f4f4f4;
-  font-family: inherit;
-  font-size: 1rem;
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
 }
 
 .btn-green {
   background-color: #4caf50;
-  color: #f4f4f4;
-  font-family: inherit;
-  font-size: 1rem;
-  border-radius: 10px;
-  border: none;
-  padding: 5px;
 }
 
 header nav {
   display: flex;
   align-items: center;
-  background-color: #e2c8f0;
+  justify-content: space-between;
+  background-color: #640fc5;
 }
 header nav img {
   width: 5rem;
@@ -196,8 +193,12 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  font-family: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
+  color: #f4f4f4;
+}
+header nav ul li a:hover {
+  color: #ff8700;
 }
 
 #hero {
@@ -208,8 +209,11 @@ header nav ul li a {
 #hero h1 {
   font-size: 3rem;
 }
+#hero p {
+  font-style: italic;
+}
 #hero img {
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 20px;
   border: none;
   border-radius: 25px;

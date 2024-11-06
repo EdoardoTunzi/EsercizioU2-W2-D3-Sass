@@ -1,22 +1,25 @@
-$colorBlue: #0e6cff;
-$colorOrange: #ff8700;
-$colorGreen: #4caf50;
-$colorPurple: #640fc5;
-
 $colorMap: (
   "blue": $colorBlue,
   "orange": $colorOrange,
   "green": $colorGreen,
 );
 
+.btn {
+  color: $text-color;
+  font-family: inherit;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  padding-inline: 15px;
+  padding-block: 5px;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
 @each $name, $color in $colorMap {
   .btn-#{$name} {
     background-color: $color;
-    color: $text-color;
-    font-family: inherit;
-    font-size: $size1;
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
   }
 }

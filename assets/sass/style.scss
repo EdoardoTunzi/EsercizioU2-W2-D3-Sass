@@ -10,7 +10,8 @@ header {
   nav {
     display: flex;
     align-items: center;
-    background-color: #e2c8f0;
+    justify-content: space-between;
+    background-color: $colorPurple;
     img {
       width: 5rem;
     }
@@ -19,8 +20,12 @@ header {
         display: inline-flex;
         a {
           text-decoration: none;
-          font-family: inherit;
+          font-family: $font-primary;
           font-size: $size1;
+          color: $text-color;
+          &:hover {
+            color: $colorOrange;
+          }
         }
       }
     }
@@ -34,8 +39,11 @@ header {
   h1 {
     @include titleBig();
   }
+  p {
+    font-style: italic;
+  }
   img {
-    max-width: 300px;
+    max-width: 400px;
     border-radius: 20px;
     @include floating(none, 25px, 0px 5px 5px 0px rgba(182, 134, 204, 0.784));
   }

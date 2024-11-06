@@ -2,8 +2,9 @@ $text-color: #f4f4f4;
 $size1: 1rem;
 $size2: 2rem;
 $size3: 3rem;
+$font-primary: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: $font-primary;
   color: $text-color;
 }
 @mixin titleBig() {
