@@ -5,3 +5,38 @@
 @import "./partials/buttons";
 @import "./partials/mixins";
 @import "./partials/animations";
+
+header {
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    img {
+      width: 100px;
+    }
+    ul {
+      li {
+        display: inline-flex;
+      }
+    }
+  }
+}
+#hero {
+  background-color: $colorPurple;
+  display: flex;
+  align-items: center;
+  img {
+    width: 300px;
+    border-radius: 15%;
+  }
+}
+
+#grid {
+  display: flex;
+  gap: 10px;
+  img {
+    width: 200px;
+    border-radius: 15%;
+    margin: 1rem;
+  }
+}

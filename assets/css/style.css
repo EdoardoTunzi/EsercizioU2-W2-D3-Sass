@@ -1,1 +1,31 @@
-/*# sourceMappingURL=style.css.map */
+header nav {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+}
+header nav img {
+  width: 100px;
+}
+header nav ul li {
+  display: inline-flex;
+}
+
+#hero {
+  background-color: #640fc5;
+  display: flex;
+  align-items: center;
+}
+#hero img {
+  width: 300px;
+  border-radius: 15%;
+}
+
+#grid {
+  display: flex;
+  gap: 10px;
+}
+#grid img {
+  width: 200px;
+  border-radius: 15%;
+  margin: 1rem;
+}/*# sourceMappingURL=style.css.map */
