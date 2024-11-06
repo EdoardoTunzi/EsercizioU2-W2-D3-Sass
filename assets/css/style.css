@@ -1,23 +1,45 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+}
+
+/*#hero {
+    button {
+
+    }
+}
+    */
 header nav {
   display: flex;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #e2c8f0;
 }
 header nav img {
-  width: 100px;
+  width: 5rem;
 }
 header nav ul li {
   display: inline-flex;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-inline: 1rem;
 }
 
 #hero {
   background-color: #640fc5;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+#hero h1 {
+  font-size: 3rem;
 }
 #hero img {
   width: 300px;
   border-radius: 15%;
+  margin-block: 1rem;
 }
 
 #grid {
@@ -25,7 +47,7 @@ header nav ul li {
   gap: 10px;
 }
 #grid img {
-  width: 200px;
+  width: 20%;
   border-radius: 15%;
   margin: 1rem;
 }/*# sourceMappingURL=style.css.map */

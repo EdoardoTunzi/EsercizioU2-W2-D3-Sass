@@ -10,13 +10,19 @@ header {
   nav {
     display: flex;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #e2c8f0;
     img {
-      width: 100px;
+      width: 5rem;
     }
     ul {
       li {
         display: inline-flex;
+        a {
+          text-decoration: none;
+          font-family: inherit;
+          font-size: $size1;
+          margin-inline: 1rem;
+        }
       }
     }
   }
@@ -25,9 +31,14 @@ header {
   background-color: $colorPurple;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  h1 {
+    @include titleBig();
+  }
   img {
     width: 300px;
     border-radius: 15%;
+    margin-block: 1rem;
   }
 }
 
@@ -35,7 +46,7 @@ header {
   display: flex;
   gap: 10px;
   img {
-    width: 200px;
+    width: 20%;
     border-radius: 15%;
     margin: 1rem;
   }
